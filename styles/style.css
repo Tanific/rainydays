@@ -1,0 +1,84 @@
+/* Home Page */
+body {
+    font-family: "Avenir-Next", Verdana, Tahoma, sans-serif;
+    min-height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* Navigation */
+header {
+    background-color: #F0F0F0;
+    max-height: 200px;
+}
+
+.nav-top {
+    background-color: #0A3641; 
+    width: 100%;
+    position: absolute;
+    height: 45px;
+}
+
+nav {
+    position: relative;
+    float: right;
+    top: -100px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav ul {
+    padding-right: 40px;
+    display: flex;
+}
+
+.nav-top_button {
+    background-color: white;
+    color: #0A3641;
+    text-decoration: none;
+    text-align: center;
+    width: 116px;
+    height: 28px;
+    border-radius: 15px;
+    font-size: 20px;
+    float: right;
+    margin: 10px;
+} 
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    margin: 50px 0px 0px 10px;
+}
+
+#search-bar {
+    width: 400px;
+    height: 30px;
+    position: relative;
+    left: 25%;
+    bottom: 37px;
+    border-color: #0A3641;
+    font-size: 1rem;
+}
+
+.placeholder-text_searchbar {
+    padding-left: 50px;
+}
+
+/* Navigation elements */
+
+.navcircle {
+    display: inline-block;
+    background-color: #0A3641;
+    width: 65px;
+    height: 55px;
+    border-radius: 50%;  
+}
+
+#navicon {
+    display: flex;
+    
+}
