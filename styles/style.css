@@ -32,7 +32,6 @@ nav li {
 
 nav ul {
     padding-right: 40px;
-    display: flex;
 }
 
 .nav-top_button {
@@ -72,13 +71,8 @@ nav ul {
 
 .navcircle {
     display: inline-block;
+    position: relative;
     background-color: #0A3641;
-    width: 65px;
+    min-width: 65px;
     height: 55px;
-    border-radius: 50%;  
-}
-
-#navicon {
-    display: flex;
-    
 }
