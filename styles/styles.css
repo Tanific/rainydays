@@ -23,15 +23,16 @@ header {
 nav {
     position: relative;
     float: right;
-    top: -100px;
+    top: -113px;
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 10px;
+    display: inline-block
 }
 
 nav ul {
-    padding-right: 40px;
+    padding-right: 10px;
 }
 
 .nav-top_button {
@@ -39,40 +40,21 @@ nav ul {
     color: #0A3641;
     text-decoration: none;
     text-align: center;
+    float: right;
     width: 116px;
     height: 28px;
     border-radius: 15px;
     font-size: 20px;
-    float: right;
     margin: 10px;
 } 
 
 .logo {
-    max-width: 250px;
-    height: auto;
-    margin: 50px 0px 0px 10px;
-}
-
-#search-bar {
-    width: 400px;
-    height: 30px;
     position: relative;
-    left: 25%;
-    bottom: 37px;
-    border-color: #0A3641;
-    font-size: 1rem;
+    max-width: 250px;
+    margin: 50px 0px 0px 20px;
 }
-
-.placeholder-text_searchbar {
-    padding-left: 50px;
-}
-
-/* Navigation elements */
-
-.navcircle {
-    display: inline-block;
-    background-color: #0A3641;
-    min-width: 65px;
-    height: 55px;
-    border-radius: 50%;
+  
+.form-wrapper {
+    display: flex;
+    flex-direction: row;
 }
