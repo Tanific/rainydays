@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Avenir Next";
+    src: url("../fonts/Avenir\ Next\ Font.ttf");
+}
+
 /* Home Page */
 body {
     font-family: "Avenir-Next", Verdana, Tahoma, sans-serif;
@@ -23,7 +28,7 @@ header {
 nav {
     position: relative;
     float: right;
-    top: -85px;
+    top: -110px;
 }
 
 nav li {
@@ -65,3 +70,87 @@ nav ul {
     margin: 50px 0px 0px 20px;
 }
 
+/* Search bar */
+
+.form-wrapper > * {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -43px;
+}
+
+#textarea {
+    height: 38px;
+    width: 490px;
+    border: 2px solid #638A98;
+    border-left: hidden;
+    font-size: 20px;
+}
+
+.searchbutton {
+    background-color: white;
+    border: 2px solid #638A98;
+    border-right: hidden;
+    color: #638A98;
+    font-size: 30px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Store navigation */
+
+main {
+    background-image:url("../images/canoeing-homepage-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 90vh;
+    position: relative;
+}
+
+.store-navigation {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    text-align: center;
+    border: 3px solid #CFDADC;
+    border-left: hidden;
+    border-right: hidden;
+    color: #0A3641;
+    font-size: 1rem;
+}
+
+.navelement {
+    border-right: 1px solid #CFDADC;
+}
+
+.home-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 200px;
+}
+
+.cta {
+    display: block;
+    position: relative;
+    font-size: 2em;
+    color: white;
+    background-color: #ED6D2E;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.cta-womens {
+    padding: 50px 100px;
+}
+
+.cta-mens {
+    padding: 50px 120px;
+}
