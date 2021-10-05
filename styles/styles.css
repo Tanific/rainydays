@@ -109,7 +109,7 @@ main {
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
-    min-height: 90vh;
+    min-height: 110vh;
     position: relative;
 }
 
@@ -126,9 +126,6 @@ main {
     font-size: 1rem;
 }
 
-.navelement {
-    border-right: 1px solid #CFDADC;
-}
 
 .home-cta {
     display: flex;
@@ -146,6 +143,7 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 10px;
+    white-space: nowrap;
 }
 
 .cta-womens {
