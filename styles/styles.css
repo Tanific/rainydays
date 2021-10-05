@@ -5,7 +5,7 @@
 
 /* Home Page */
 body {
-    font-family: "Avenir-Next", Verdana, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     margin: 0px;
     display: grid;
@@ -82,11 +82,12 @@ nav ul {
 }
 
 #textarea {
-    height: 38px;
     width: 600px;
     border: 2px solid #638A98;
     border-left: hidden;
-    font-size: 20px;
+    font-size: 18px;
+    outline: none;
+    padding: 0px;
 }
 
 .searchbutton {
@@ -99,6 +100,9 @@ nav ul {
     padding-right: 10px;
 }
 
+::placeholder {
+    color: #b2cbcf;
+}
 
 /* Store navigation */
 main {
@@ -114,10 +118,11 @@ main {
 .store-navigation {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    font-size: 1em;
+    font-size: 1.3em;
+    font-weight: bolder;
     background-color: white;
     text-align: center;
-    border: 3px solid #CFDADC;
+    border: 2px solid #CFDADC;
     border-left: hidden;
     border-right: hidden;
     color: #0A3641;
@@ -151,6 +156,7 @@ main {
     background-color: #ED6D2E;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 900;
     border-radius: 10px;
     white-space: nowrap;
 }
