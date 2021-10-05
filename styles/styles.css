@@ -21,8 +21,9 @@ header {
 .nav-top {
     background-color: #0A3641; 
     width: 100%;
-    position: absolute;
+    position: fixed;
     height: 45px;
+    z-index: 999;
 }
 
 nav {
