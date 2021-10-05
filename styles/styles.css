@@ -83,7 +83,7 @@ nav ul {
 
 #textarea {
     height: 38px;
-    width: 490px;
+    width: 600px;
     border: 2px solid #638A98;
     border-left: hidden;
     font-size: 20px;
@@ -95,14 +95,12 @@ nav ul {
     border-right: hidden;
     color: #638A98;
     font-size: 30px;
-    height: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 
 /* Store navigation */
-
 main {
     background-image:url("../images/canoeing-homepage-background.jpg");
     background-size: cover;
@@ -115,17 +113,28 @@ main {
 
 .store-navigation {
     display: grid;
-    grid-auto-rows: 1fr;
     grid-template-columns: repeat(4, 1fr);
+    font-size: 1em;
     background-color: white;
     text-align: center;
     border: 3px solid #CFDADC;
     border-left: hidden;
     border-right: hidden;
     color: #0A3641;
-    font-size: 1rem;
 }
 
+.navelement p {
+    margin: 2px;
+}
+
+.navelement {
+    border-right: 1px solid #CFDADC;
+    margin: 12px;
+}
+
+.navelement:last-child {
+    border: hidden;
+}
 
 .home-cta {
     display: flex;
