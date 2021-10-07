@@ -25,7 +25,7 @@ header a {
 
 .header-bottom_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-gap: 20px;
     align-items: center;
 }
@@ -38,13 +38,12 @@ header a {
     z-index: 999;
 }
 
-nav {
+.navmedia {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 6px;
     max-width: 50px;
-    align-self: flex-end;
-    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
  .fas, .fab {
@@ -80,18 +79,19 @@ nav {
 .form-wrapper {
     display: flex;
     justify-content: center;
-    width: 600px;
+    width: 100%
 }
 
-
 #textarea {
-    max-width: 500px;
+    max-width: 600px;
+    min-width: 20px;
     border: 2px solid #638A98;
     border-left: hidden;
     font-size: 18px;
     outline: none;
     padding: 0px;
     flex: 1;
+    flex-grow: 1;
 }
 
 .make-block {
@@ -118,19 +118,16 @@ main {
     background-image:url("../images/canoeing-homepage-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    min-height: 110vh;
-    position: relative;
+    background-position: center center;
+    height: 110vh;
+    width: 100%;
     max-width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
 .store-navigation {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: bolder;
     background-color: white;
     text-align: center;
@@ -163,7 +160,7 @@ main {
 
 .cta {
     position: relative;
-    font-size: 1.4em;
+    font-size: 30px;
     color: white;
     background-color: #ED6D2E;
     text-decoration: none;
@@ -175,24 +172,94 @@ main {
     text-align: center;
 }
 
+.cta:hover {
+    cursor: pointer;
+    background-color:#db6124;
+}
+
 .cta-gender {
     min-width: 380px;
+    margin: 20px auto;
 }
 
 .hamburger {
+    display: none;
+    padding: 0px;
+}
+
+.navelement-mq {
     display: none;
 }
 
 /* media queries */
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1000px) {
 
-    nav {
+    .navmedia {
         display: none;
     }
 
     .hamburger {
-        background-image:image()
+        display: block;
+        border: none;
+        margin-top: 100px;
     }
 
+    .home-cta {
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+    }
+
+    .cta-gender {
+        max-width: 50px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #textarea {
+        display: none;
+    }
+
+    .searchbutton {
+        text-decoration: none;
+        color: white;
+        background-color: #0A3641;
+        text-align: center;
+        font-size: 30px;
+        border-radius: 50%;
+        min-width: 60px;
+        padding: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-wrapper {
+        justify-content: right;
+    }
+
+    .navelement {
+        display: none;
+    }
+
+    .navelement-mq {
+        display: block;
+        text-align: center;
+    }
+    
+    .store-navigation {
+        grid-template-columns: 1fr auto;
+    }
+
+    .store-navigation:hover {
+        background-color: #e5eef0;
+        cursor: pointer;
+    }
+
+    .nav-top {
+        display: flex;
+        justify-content: center; 
+    }
 }
