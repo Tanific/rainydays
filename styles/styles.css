@@ -10,11 +10,17 @@ body {
     margin: 0px;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    overflow-x: hidden;
 }
 
 /* Navigation */
 header {
     background-color: #F0F0F0;
+    max-width: 100%;
+}
+
+header a {
+    padding: 0px;
 }
 
 .header-bottom_grid {
@@ -35,8 +41,10 @@ header {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 3px;
+    grid-gap: 6px;
     max-width: 50px;
+    align-self: flex-end;
+    margin-bottom: 20px;
 }
 
  .fas, .fab {
@@ -73,8 +81,8 @@ nav {
     display: flex;
     justify-content: center;
     width: 600px;
-    margin: 50px auto;
 }
+
 
 #textarea {
     max-width: 500px;
@@ -84,6 +92,11 @@ nav {
     outline: none;
     padding: 0px;
     flex: 1;
+}
+
+.make-block {
+    align-self:flex-end;
+    margin-bottom: 20px;
 }
 
 .searchbutton {
@@ -109,6 +122,9 @@ main {
     background-position-y: bottom;
     min-height: 110vh;
     position: relative;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .store-navigation {
@@ -161,4 +177,22 @@ main {
 
 .cta-gender {
     min-width: 380px;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1150px) {
+
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        background-image:image()
+    }
+
 }
