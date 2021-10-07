@@ -15,7 +15,13 @@ body {
 /* Navigation */
 header {
     background-color: #F0F0F0;
-    max-height: 200px;
+}
+
+.header-bottom_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
 }
 
 .nav-top {
@@ -27,14 +33,10 @@ header {
 }
 
 nav {
-    position: relative;
-    float: right;
-    top: -110px;
-}
-
-nav li {
-    display: inline-block;
-    padding-right: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+    max-width: 50px;
 }
 
  .fas, .fab {
@@ -46,10 +48,6 @@ nav li {
     border-radius: 50%;
     min-width: 40px;
     padding: 10px;
-}
-
-nav ul {
-    margin-right: 20px;
 }
 
 .nav-top_button {
@@ -66,28 +64,26 @@ nav ul {
 } 
 
 .logo {
-    position: relative;
     max-width: 250px;
     margin: 50px 0px 0px 20px;
 }
 
 /* Search bar */
-
-.form-wrapper > * {
-    flex: 1;
+.form-wrapper {
     display: flex;
     justify-content: center;
-    position: relative;
-    top: -43px;
+    width: 600px;
+    margin: 50px auto;
 }
 
 #textarea {
-    width: 600px;
+    max-width: 500px;
     border: 2px solid #638A98;
     border-left: hidden;
     font-size: 18px;
     outline: none;
     padding: 0px;
+    flex: 1;
 }
 
 .searchbutton {
@@ -144,14 +140,14 @@ main {
 .home-cta {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 200px;
+    justify-content: space-evenly;
+    padding: 80px;
+    margin-top: 40px;
 }
 
 .cta {
-    display: block;
     position: relative;
-    font-size: 2em;
+    font-size: 1.4em;
     color: white;
     background-color: #ED6D2E;
     text-decoration: none;
@@ -159,12 +155,10 @@ main {
     font-weight: 900;
     border-radius: 10px;
     white-space: nowrap;
+    padding: 50px 0px;
+    text-align: center;
 }
 
-.cta-womens {
-    padding: 50px 100px;
-}
-
-.cta-mens {
-    padding: 50px 120px;
+.cta-gender {
+    min-width: 380px;
 }
