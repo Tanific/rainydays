@@ -7,10 +7,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
+    width: 100%;
     margin: 0px;
     display: grid;
-    grid-template-rows: auto 1fr auto;
-    overflow-x: hidden;
+    grid-template-rows: auto;
+    overflow: hidden;
 }
 
 /* Navigation */
@@ -25,25 +26,24 @@ header a {
 
 .header-bottom_grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: auto 2fr auto;
     grid-gap: 20px;
-    align-items: center;
+    align-items: end;
+    width: 100%;
 }
 
 .nav-top {
     background-color: #0A3641; 
     width: 100%;
-    position: fixed;
     height: 45px;
     z-index: 999;
 }
 
 .navmedia {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  repeat(5, 1fr);
     grid-gap: 6px;
-    max-width: 50px;
-    margin-top: 100px;
+    margin-right: 10px;
 }
 
  .fas, .fab {
@@ -70,6 +70,11 @@ header a {
     margin: 10px;
 } 
 
+nav {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .logo {
     max-width: 250px;
     margin: 50px 0px 0px 20px;
@@ -79,7 +84,7 @@ header a {
 .form-wrapper {
     display: flex;
     justify-content: center;
-    width: 100%
+    min-width: 100%;
 }
 
 #textarea {
@@ -95,7 +100,9 @@ header a {
 }
 
 .make-block {
-    align-self:flex-end;
+    display: grid;
+    justify-items: center;
+    align-self: flex-end;
     margin-bottom: 20px;
 }
 
