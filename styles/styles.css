@@ -203,6 +203,7 @@ main {
         display: block;
         border: none;
         margin-top: 100px;
+        flex: 1;
     }
 
     .home-cta {
@@ -234,6 +235,8 @@ main {
         border: none;
         display: flex;
         justify-content: center;
+        flex: 1;
+        max-width: 50px;
     }
 
     .form-wrapper {
@@ -251,6 +254,7 @@ main {
     
     .store-navigation {
         grid-template-columns: 1fr auto;
+        flex: 1;
     }
 
     .store-navigation:hover {
