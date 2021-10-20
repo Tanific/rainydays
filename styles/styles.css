@@ -11,7 +11,6 @@ body {
     margin: 0px;
     display: grid;
     grid-template-rows: auto;
-    overflow: hidden;
 }
 
 /* Navigation */
@@ -33,7 +32,7 @@ header a {
 }
 
 .nav-top {
-    background-color: #0A3641; 
+    background: #0A3641; 
     width: 100%;
     height: 45px;
     z-index: 999;
@@ -49,7 +48,7 @@ header a {
  .fas, .fab {
     text-decoration: none;
     color: white;
-    background-color: #0A3641;
+    background: #0A3641;
     text-align: center;
     font-size: 30px;
     border-radius: 50%;
@@ -58,7 +57,7 @@ header a {
 }
 
 .nav-top_button {
-    background-color: white;
+    background: white;
     color: #0A3641;
     text-decoration: none;
     text-align: center;
@@ -107,7 +106,7 @@ nav {
 }
 
 .searchbutton {
-    background-color: white;
+    background: white;
     border: 2px solid #638A98;
     border-right: hidden;
     color: #638A98;
@@ -122,13 +121,10 @@ nav {
 
 /* Store navigation */
 main {
-    background-image:url("../images/canoeing-homepage-background.jpg");
+    background: no-repeat center/100% url("../images/canoeing-homepage-background.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 110vh;
-    width: 100%;
-    max-width: 100%;
+    width: auto;
+    min-height: 100vh;
 }
 
 .store-navigation {
@@ -136,7 +132,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
     font-size: 20px;
     font-weight: bolder;
-    background-color: white;
+    background: white;
     text-align: center;
     border: 2px solid #CFDADC;
     border-left: hidden;
@@ -169,7 +165,7 @@ main {
     position: relative;
     font-size: 30px;
     color: white;
-    background-color: #ED6D2E;
+    background: #ED6D2E;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 900;
@@ -181,7 +177,7 @@ main {
 
 .cta:hover {
     cursor: pointer;
-    background-color:#db6124;
+    background:#db6124;
 }
 
 .cta-gender {
@@ -232,7 +228,7 @@ main {
     .searchbutton {
         text-decoration: none;
         color: white;
-        background-color: #0A3641;
+        background: #0A3641;
         text-align: center;
         font-size: 30px;
         border-radius: 50%;
