@@ -117,7 +117,7 @@ nav {
     border: 2px solid #638A98;
     border-right: hidden;
     color: #638A98;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -125,6 +125,7 @@ nav {
 ::placeholder {
     color: #b2cbcf;
 }
+
 
 /* Store navigation */
 main {
@@ -153,10 +154,10 @@ main {
 
 .navelement {
     border-right: 1px solid #CFDADC;
-    margin: 12px;
+    margin: 12px 0px;
 }
 
-.store-navigation:last-child {
+.navelement:last-child {
     border: hidden;
 }
 
