@@ -1,0 +1,65 @@
+
+
+@media only screen and (max-width: 1000px) {
+
+    .navmedia {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        border: none;
+        margin-right: 10px;
+    }
+
+    .home-cta {
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+    }
+
+    .cta-gender {
+        max-width: 50px;
+        margin: 10px;
+    }
+
+    .logo {
+        max-width: 210px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .form-wrapper {
+        justify-content: right;
+    }
+
+    .navelement {
+        display: none;
+    }
+
+    .navelement-mq {
+        display: block;
+        text-align: center;
+    }
+    
+    .store-navigation {
+        grid-template-columns: 1fr auto;
+        flex: 1;
+    }
+
+    .store-navigation:hover {
+        background-color: #e5eef0;
+        cursor: pointer;
+    }
+
+    .nav-top {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .logo {
+        max-width: 170px;
+    }
+}

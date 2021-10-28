@@ -58,7 +58,8 @@ header a {
     text-align: center;
     font-size: 30px;
     border-radius: 50%;
-    min-width: 40px;
+    width: 40px;
+    height: 30px;
     padding: 10px;
 }
 
@@ -82,7 +83,7 @@ nav {
 
 .logo {
     max-width: 250px;
-    margin: 50px 0px 0px 20px;
+    margin: 20px 0px 0px 20px;
 }
 
 /* Search bar */
@@ -155,7 +156,7 @@ main {
     margin: 12px;
 }
 
-.navelement:last-child {
+.store-navigation:last-child {
     border: hidden;
 }
 
@@ -200,78 +201,3 @@ main {
     display: none;
 }
 
-/* media queries */
-
-@media only screen and (max-width: 1000px) {
-
-    .navmedia {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-        border: none;
-        margin-right: 10px;
-    }
-
-    .home-cta {
-        display: flex;
-        flex-direction: column;   
-        align-items: center;
-    }
-
-    .cta-gender {
-        max-width: 50px;
-        margin: 10px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #textarea {
-        display: none;
-    }
-
-    .searchbutton {
-        text-decoration: none;
-        color: white;
-        background: #0A3641;
-        text-align: center;
-        font-size: 30px;
-        border-radius: 50%;
-        min-width: 60px;
-        padding: 10px;
-        border: none;
-        display: flex;
-        justify-content: center;
-        flex: 1;
-        max-width: 50px;
-    }
-
-    .form-wrapper {
-        justify-content: right;
-    }
-
-    .navelement {
-        display: none;
-    }
-
-    .navelement-mq {
-        display: block;
-        text-align: center;
-    }
-    
-    .store-navigation {
-        grid-template-columns: 1fr auto;
-        flex: 1;
-    }
-
-    .store-navigation:hover {
-        background-color: #e5eef0;
-        cursor: pointer;
-    }
-
-    .nav-top {
-        display: flex;
-        justify-content: center; 
-    }
-}
