@@ -13,6 +13,12 @@ body {
     grid-template-rows: auto;
 }
 
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
 /* Navigation */
 header {
     background: #F0F0F0;
