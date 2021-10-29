@@ -54,12 +54,12 @@ header a {
 
 .navmedia {
     display: grid;
-    grid-template-columns:  repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 6px;
     margin-right: 10px;
 }
 
- .fas, .fab {
+.fas, .fab {
     text-decoration: none;
     color: white;
     background: #0A3641;

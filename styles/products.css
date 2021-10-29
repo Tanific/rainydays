@@ -3,6 +3,16 @@
     background-color: white;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    background: white;
+    font-weight: lighter;
+    font-size: 44px;
+    color:#0A3641;
+    margin: 20px 5px;
+}
+
 .products-filter {
     width: 300px;
     display: inline-block;
@@ -67,28 +77,130 @@
 }
 
 .featured-products {
-    gap: 50px;
+    gap: 10px;
     margin: 15px 45px;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 50px;
 }
 
 .product-info {
     display: grid;
-    grid-template-rows: 1fr auto auto;
-    margin-left: 15px;
+    grid-template-columns: auto auto;
+    border-top: solid 15px #F0F0F0;
+    padding: 0px 20px 0px 0px;
+    max-height: 200px;
+    justify-items: center;
 }
 
 .product-info h3 {
     font-weight: bolder;
     font-size: 25px;
+    margin: 5px 0px;
 }
 
 .products-wrapper {
     display: grid;
     grid-template-columns: auto 1fr;
+    margin-bottom: 30px;
 }
 
-.product-info p {
-    margin: 0px;
+.checked {
+    color: orange;
+}
+
+.fa a {
+    background-color: black;
+}
+
+i.fa.fa-shopping-cart {
+    font-size: 2.9em;
+    margin-left: 75px;
+}
+
+i.fa.fa-shopping-cart:hover {
+    cursor: pointer;
+    color: #db6124;
+}
+
+.price {
+    font-size: 1.6em;
+    font-weight: lighter;
+    margin: 2px 0px;
+}
+
+.reviews {
+    margin: 0px 0px 5px 0px;
+    text-decoration: underline;
+}
+
+.color-selector ul {
+    list-style: inline;
+    padding: 0px;
+    margin: 12px 0px 20px;
+}
+
+.fas.fa-circle {
+    background: none;
+    font-size: 20px;
+    padding: 0px;
+    width: 20px;
+    height: 30px;
+}
+
+.fas.fa-circle:hover {
+    filter: brightness(65%);
+    cursor: pointer;
+}
+
+#green {
+    color: green;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: rgb(43, 43, 255);
+}
+
+#yellow {
+    color: rgb(216, 199, 49);
+}
+
+#black {
+    color: rgb(65, 65, 65);
+}
+
+.info-wrapper_2 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 40px;
+}
+
+.contact-footer_wrapper {
+    background: white;
+    display: grid;
+    justify-items: center;
+    border: 1px solid grey;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+}
+
+.contact-footer_wrapper ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.contact-button {
+    padding: 15px 10px;
+    margin-top: 40px;
+    font-family: var(--text-heading);
 }
