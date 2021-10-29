@@ -1,12 +1,12 @@
 
 .rain-coat, .products-filter ul, .sorting {
     background-color: white;
- 
 }
 
 .products-filter {
     width: 300px;
     display: inline-block;
+    margin-left: 40px;
 }
 
 .products-filter ul, .sorting {
@@ -55,31 +55,40 @@
 
 /* Rain coats */ 
 .rain-coat img {
-    max-width: 200px;
-    height: 100%;
-    align-content: center;
+    max-width: 300px;
+    height: auto;
 }
 
 .rain-coat {
     display: grid;
     grid-template-rows: 1fr auto;
-    width: 250px;
+    max-width: 300px;
+    gap: 20px;
 }
 
 .featured-products {
-    display: inline-block;
-    padding: 16px;
     gap: 50px;
-    margin: 0px 45px;
+    margin: 15px 45px;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
 }
 
 .product-info {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr auto auto;
+    margin-left: 15px;
+}
+
+.product-info h3 {
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 .products-wrapper {
     display: grid;
     grid-template-columns: auto 1fr;
+}
+
+.product-info p {
+    margin: 0px;
 }
