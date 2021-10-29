@@ -55,29 +55,31 @@
 
 /* Rain coats */ 
 .rain-coat img {
-    width: 400px;
+    max-width: 200px;
     height: 100%;
+    align-content: center;
 }
 
 .rain-coat {
     display: grid;
-    width: 400px;
     grid-template-rows: 1fr auto;
+    width: 250px;
 }
 
 .featured-products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: inline-block;
     padding: 16px;
     gap: 50px;
     margin: 0px 45px;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
 }
 
 .product-info {
     display: flex;
+}
+
+.products-wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
