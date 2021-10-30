@@ -1,0 +1,120 @@
+main {
+    background: no-repeat center/100% url("../images/pexels-gabriela-palai-395196.png");
+    background-size: cover;
+    width: auto;
+    max-height: 100%;
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    grid-template-rows: 1fr auto;
+}
+
+.loginwrapper {
+    background: #F0F0F0;
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    top: 50%;
+    margin-top: -325px;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+h1 {
+    font-size: 4em;
+    color: #797979;
+    margin-bottom: 10px;
+    margin-top: 85px;
+}
+
+.reg {
+    margin-top: 20px;
+}
+
+form {
+    justify-items: center;
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+    margin-bottom: 0px;
+}
+
+.cta-login {
+    padding: 8px 70px;
+    height: 65px;
+    margin-right: 0px;
+}
+
+input,
+textarea {
+    border: none;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.formwrapper > * {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: left;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.registerlink {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.registerlink p {
+    color: #797979;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 0.8em;
+}
+
+::placeholder {
+    font-size: 20px;
+    color: #cfcfcf;
+}
+
+.exitbutton {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.exitbutton:hover {
+    opacity: 1;
+}
+
+.exitbutton:before, .exitbutton:after {
+  position: absolute;
+  left: 15px;
+  content: '';
+  height: 33px;
+  width: 2px;
+  background-color: rgb(104, 104, 104);
+}
+
+.exitbutton:before {
+  transform: rotate(45deg);
+}
+
+.exitbutton:after {
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Log in to your Rainydays account here"/>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/media.css" rel="stylesheet">
+    <link href="styles/login.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1ec752e2d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rainydays - Log in</title>
+</head>
+<body>
+    <main>
+        <section class="loginwrapper">
+            <h1>Log in</h1>
+            <a href="index.html" class="exitbutton"></a>
+            <form method="POST">
+            <div class="formwrapper">
+                <section>
+                    <label for="Email/phone">Please enter your e-mail/phone number</label>
+                    <input type="text" id="email/phone" name="email/phone" placeholder="Email/phone"/>
+                    <label for="password">Your password</label>
+                    <input type="text" id="password" name="password" placeholder="Password"/>
+                <div class="remember-me">
+                    <input type="checkbox" name="remember-me" id="remember-me"/>   
+                    <label for="remember-me">Remember me</label>
+                </div>
+                </section>
+            </div>
+            <input type="submit" value="Log in" class="cta cta-login"/> 
+        </form>
+        <div class=registerlink>
+            <a href="register.html"><p>Don't have an account?</p><p>Register here.</p></a>
+        </div>
+        </section>
+    </main>
+    <footer>Copyright &copy;</footer>
+</body>
+</html>
