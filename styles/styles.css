@@ -8,11 +8,11 @@
 /* Home Page */
 body {
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    max-height: 100vh;
     max-width: 100%;
     margin: 0px;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto;
 }
 
 main {
@@ -23,7 +23,6 @@ footer {
     text-align: center;
     color: white;
     background-color: black;
-    max-height: 20px;
 }
 
 /* Navigation */
@@ -55,12 +54,12 @@ header a {
 
 .navmedia {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns:  repeat(5, 1fr);
     grid-gap: 6px;
     margin-right: 10px;
 }
 
-.fas, .fab {
+ .fas, .fab {
     text-decoration: none;
     color: white;
     background: #0A3641;
@@ -179,7 +178,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 180px 80px 0px 80px;
+    padding: 100px 80px 0px 80px;
 }
 
 .cta {

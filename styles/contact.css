@@ -1,0 +1,42 @@
+main {
+    margin: 30px 80px;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contactwrapper {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    width: 400px;
+    
+}
+
+#title, #question, #files, #email {
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    font-size: 1em;
+    font-family: var(--text-paragraph);
+}
+
+#question {
+    height: 100px;
+    max-width: 370px;
+}
+
+#email {
+    margin-bottom: 8px;
+}
+
+.cta {
+    padding: 4px;
+    width: 180px;
+    margin-bottom: 70px;
+}
+
+.baby-link {
+    color: black;
+    margin-left: 10px;
+}

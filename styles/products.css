@@ -67,20 +67,21 @@ h1 {
 .rain-coat img {
     max-width: 300px;
     height: auto;
+    margin-top: 10px;
 }
 
 .rain-coat {
     display: grid;
     grid-template-rows: 1fr auto;
-    max-width: 300px;
+    max-width: 297px;
     gap: 20px;
 }
 
 .featured-products {
     gap: 10px;
-    margin: 15px 45px;
+    margin: 15px 25px 15px 45px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 295px);
     gap: 50px;
 }
 
@@ -185,7 +186,7 @@ i.fa.fa-shopping-cart:hover {
     background: white;
     display: grid;
     justify-items: center;
-    border: 1px solid grey;
+    border: 1px solid #ececec;
     border-left: hidden;
     border-right: hidden;
     border-bottom: hidden;
@@ -201,7 +202,7 @@ i.fa.fa-shopping-cart:hover {
     margin: 20px 0px;
 }
 
-.contact-button {
+.cta {
     padding: 15px 10px;
     margin-top: 40px;
     font-family: var(--text-heading);
