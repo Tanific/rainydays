@@ -8,11 +8,11 @@
 /* Home Page */
 body {
     font-family: 'Montserrat', sans-serif;
-    max-height: 100vh;
+    height: 100vh;
     max-width: 100%;
     margin: 0px;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: auto 1fr auto;
 }
 
 main {
