@@ -2,14 +2,13 @@ main {
     margin: 30px 80px;
     display: grid;
     justify-items: center;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto;
 }
 
 .contactwrapper {
     display: grid;
     grid-template-rows: auto auto auto auto;
     width: 400px;
-    
 }
 
 #title, #question, #files, #email {
@@ -34,6 +33,7 @@ main {
     padding: 4px;
     width: 180px;
     margin-bottom: 70px;
+    height: 40px;
 }
 
 .baby-link {
