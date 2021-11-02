@@ -102,7 +102,6 @@ h1 {
 
 .products-wrapper {
     display: grid;
-    grid-template-columns: auto 1fr;
     margin-bottom: 30px;
 }
 
