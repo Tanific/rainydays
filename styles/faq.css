@@ -2,16 +2,6 @@ main {
     background-color: white;
 }
 
-.faq-wrapper {
-    display: grid;
-    background-color:#F0F0F0;
-    max-width: 100%;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    justify-items: center;
-    justify-content: center;
-    gap: 20px; 
-}
 h1 {
     font-size: 4em;
     color: #707070;
@@ -21,13 +11,23 @@ h1 {
     background-color: #F0F0F0;
 }
 
+.faq-wrapper {
+    display: grid;
+    background-color:#F0F0F0;
+    min-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; 
+}
+
+
 .faq-wrapper div {
     background-color: white;
     max-width: 500px;
-    height: 240px;
+    min-width: 220px;
+    max-height: 240px;
     margin: 20px 20px 0 20px;
     text-align: left;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .faq-wrapper div:nth-last-child(-n+3) {
@@ -40,8 +40,13 @@ h1 {
     color: #4E4E4E;
 }
 
+.faq-wrapper p {
+    padding: 0px 15px 0px 0px;
+}
+
 .cta {
     padding: 15px 10px;
     margin-top: 15px;
     font-family: var(--text-heading);
 }
+
