@@ -15,10 +15,6 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-main {
-    background-color: #F0F0F0;
-}
-
 footer {
     text-align: center;
     color: white;
@@ -38,7 +34,7 @@ header a {
 
 .header-bottom_grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: auto 1fr auto;
     grid-gap: 20px;
     align-items: end;
     width: 100%;
@@ -135,13 +131,25 @@ nav {
     color: #b2cbcf;
 }
 
+.fas.fa-search {
+    display: none;
+}
 
 /* Store navigation */
 .homebg {
     background: no-repeat center/100% url("../images/canoeing-homepage-background.jpg");
     background-size: cover;
     max-width: 100%;
-    min-height: 73vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homebg div {
+    width: 350px;
+    display: flex;
+    justify-content: center;
 }
 
 .store-navigation {
@@ -175,15 +183,7 @@ nav {
     border: hidden;
 }
 
-.home-cta {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 150px 10px;
-}
-
 .cta {
-    position: relative;
     font-size: 30px;
     color: white;
     background: #ED6D2E;
@@ -191,19 +191,14 @@ nav {
     text-transform: uppercase;
     font-weight: 900;
     border-radius: 10px;
-    white-space: nowrap;
-    padding: 50px 0px;
+    padding: 40px;
+    width: 290px;
     text-align: center;
 }
 
 .cta:hover {
     cursor: pointer;
     background:#db6124;
-}
-
-.cta-gender {
-    min-width: 380px;
-    margin: 20px auto;
 }
 
 .hamburger {

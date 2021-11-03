@@ -4,7 +4,6 @@ main {
     width: auto;
     max-height: 100%;
     position: relative;
-    min-width: 600px;
     display: flex;
     justify-content: center;
 }
@@ -16,10 +15,10 @@ body {
 .loginwrapper {
     background: #F0F0F0;
     position: absolute;
-    width: 550px;
-    height: 650px;
+    min-width: 480px;
+    height: 550px;
     top: 50%;
-    margin: -325px auto;
+    margin: -280px auto;
     text-align: center;
     border: 2px solid grey;
 }
@@ -28,7 +27,7 @@ h1 {
     font-size: 4em;
     color: #797979;
     margin-bottom: 10px;
-    margin-top: 85px;
+    margin-top: 35px;
 }
 
 .reg {
@@ -52,7 +51,7 @@ form {
 input,
 textarea {
     border: none;
-    margin: 10px 10px 10px 0px;
+    margin: 10px;
     padding: 10px;
     height: 35px;
     font-size: 20px;
