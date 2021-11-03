@@ -32,6 +32,14 @@
     .faq-wrapper {
         grid-template-columns: 1fr 1fr !important;
         }
+    
+    .faq-wrapper div:nth-last-child(-n+3) {
+        margin-bottom: 0px !important;
+    }
+
+    .faq-wrapper div:nth-last-child(-n+2) {
+        margin-bottom: 20px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -73,7 +81,13 @@
         padding-top: 90px;
     }
 
-    
+    .faq-wrapper {
+        grid-template-columns: 1fr !important;
+        }
+        
+    .faq-wrapper div:nth-last-child(-n+3) {
+        margin-bottom: 20px !important;
+    }
 }
 
 /* FOOTER */

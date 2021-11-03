@@ -1,5 +1,6 @@
 main {
-    height: 690px;
+    height: 70vh;
+    padding-top: 5px;
 }
 
 .itemspecific-wrapper {
@@ -54,6 +55,11 @@ h3 {
 ul {
     margin: 0px;
     padding: 0px;
+}
+
+li:hover {
+    cursor: pointer;
+    color:grey;
 }
 
 .color {
