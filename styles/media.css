@@ -31,7 +31,7 @@
 
     .faq-wrapper {
         grid-template-columns: 1fr 1fr !important;
-        }
+    }
     
     .faq-wrapper div:nth-last-child(-n+3) {
         margin-bottom: 0px !important;
@@ -87,6 +87,10 @@
         
     .faq-wrapper div:nth-last-child(-n+3) {
         margin-bottom: 20px !important;
+    }
+
+    .faq-wrapper div {
+        height: auto !important;
     }
 }
 

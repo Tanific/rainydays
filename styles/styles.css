@@ -140,7 +140,7 @@ nav {
 .homebg {
     background: no-repeat center/100% url("../images/canoeing-homepage-background.jpg");
     background-size: cover;
-    width: auto;
+    max-width: 100%;
     min-height: 73vh;
 }
 
