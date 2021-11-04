@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Pushing the comfort zone with Rainydays"/>
+    <meta name="description" content="View what products you've added to your cart"/>
     <link href="styles/styles.css" rel="stylesheet">
     <link href="styles/media.css" rel="stylesheet">
+    <link href="styles/cart.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b1ec752e2d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Rainydays - Home</title>
+    <title>Rainydays - Your cart</title>
 </head>
 <body>
     <header>
@@ -44,32 +45,40 @@
           </nav>
         </div>
     </header>
-        <section class="store-navigation">
-            <div class="navelement">
-                <a href="products.html">
-                <p>Hiking</p></a>
+    <main>
+        <section class="cart-wrapper">
+            <h1>Your cart</h1>
+            <div class="cartsummary-wrapper">
+                <ul>
+                    <li class="cart"><h2>Product</h2>
+                        <span class="item">Rain coat</span>
+                        <span class="item">Rain coat</span>
+                    </li>
+                    <li class="cart"><h2>Color</h2>
+                        <span class="item">Yellow</span>
+                        <span class="item">Black</span>
+                    </li>
+                    <li class="cart"><h2>Size</h2>
+                        <span class="item">Medium</span>
+                        <span class="item">Large</span>
+                    </li>
+                    <li class="cart"><h2>Quantity</h2>
+                        <span class="item">1</span>
+                        <span class="item">2</span>
+                    </li>
+                    <li class="cart"><h2>Price</h2>
+                        <span class="item">$ 150.00</span>
+                        <span class="item">$ 150.00</span>
+                    </li>
+                </ul>
             </div>
-            <div class="navelement">
-                <a href="products.html">
-                <p>Canoeing</p></a>
+            <div class="bottomcontainer-cart">
+                <a href="products.html">Continue shopping</a>
+                <h3>Total price: $ 300.00</h3>
             </div>
-            <div class="navelement">
-                <a href="products.html">
-                <p>Sports</p></a>
-            </div>
-            <div class="navelement">
-                <p>Skiing</p>
-            </div>
-            <span class="navelement-mq"><p>Browse categories</p></span>
         </section>
-        <main class="homebg">
-            <div>
-                <a href="products.html" class="cta">Men's shop</a>
-            </div>
-            <div>
-                <a href="products.html" class="cta">Women's shop</a>
-            </div>
-        </main>
-<footer>Copyright &copy;</footer>
+        <a href="checkout.html" class="cta">Go to payment</a>
+    </main>
+    <footer>Copyright &copy;</footer>
 </body>
 </html>

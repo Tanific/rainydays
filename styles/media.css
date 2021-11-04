@@ -34,6 +34,31 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+
+    /*About us page */
+
+    .hideimg {
+        display: none;
+    }
+
+    .aboutus-bg {
+        border-radius: 20px !important;
+        margin-left: 0px !important;
+    }
+
+    .mq-img {
+        display: block !important;
+        max-width: 473px;
+        height: 100%;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    
+    .aboutus-wrapper {
+        flex-direction: column !important;
+        margin-top: 30px !important;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {

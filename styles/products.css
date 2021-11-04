@@ -89,7 +89,7 @@ h1 {
 .featured-products {
     display: grid;
     grid-template-columns: repeat(auto-fit, 295px);
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
 }
 

@@ -1,0 +1,72 @@
+main {
+    height: 70vh;
+}
+
+.container-wrapper {
+    margin: 10px auto;
+    background: #f0f0f0;
+    padding: 50px;
+    width: 900px;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin: 0 0 50px 0;
+}
+
+.card-info {
+    width: 335px;
+    height: 314px;
+}
+
+.pinfo {
+    gap: 5px;
+}
+
+.ccnum {
+    margin-bottom: 15px;
+}
+
+.personal-info input {
+    height: 50px;
+    width: 250px;
+    border: none;
+    font-size: 0.8em;
+}
+
+.card-info input {
+    height: 50px;
+    width: 320px;
+    border: none;
+    font-size: 0.8em;
+}
+
+.papawrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 910px;
+    
+}
+
+.personal-info {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.payment-bottom {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+}
+
+a {
+    color: black;
+}
+
+.cta {
+    margin: 5px auto;
+}

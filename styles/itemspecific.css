@@ -1,4 +1,8 @@
 
+main {
+    height: 75vh;
+} 
+
 .itemspecific-wrapper {
     display: grid;
     grid-template-columns: auto auto;
@@ -90,3 +94,4 @@ li:hover {
     font-weight: bolder;
     font-size: 1.2em;
 }
+

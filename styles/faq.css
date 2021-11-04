@@ -26,9 +26,8 @@ h1 {
     align-content: center;
     background-color: white;
     max-width: 400px;
-    height: 250px;
+    min-height: 250px;
     margin: 20px 30px;
-    overflow-y: scroll;
 }
 
 .faq-wrapper div:nth-last-child(-n+3) {
