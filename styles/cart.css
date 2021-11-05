@@ -1,6 +1,6 @@
 
 .cart-wrapper {
-    background: #f0f0f0;
+    background: var(--background-color);
     width: auto;
     margin-top: 50px;
 }

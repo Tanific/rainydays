@@ -1,5 +1,6 @@
 @media only screen and (max-width: 1000px) {
 
+    /* styles and index page */
     .navmedia {
         display: none;
     }
@@ -16,6 +17,8 @@
     .homebg {
         flex-direction: column;
     }
+
+    /* faq page */
 
     .faq-wrapper {
         grid-template-columns: 1fr 1fr !important;
@@ -70,12 +73,13 @@
         min-width: 290px !important;
     }
 
-    /* cart */
+    /* cart page */
+
     .cart-wrapper ul {
         grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
     }
 
-    /*About us page */
+    /* about us page */
 
     .hideimg {
         display: none;
@@ -126,6 +130,8 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    /* styles and index page*/
 
     .fas.fa-search {
         display: block;
@@ -185,6 +191,8 @@
         align-self: center;
     }
 
+    /* faq page */
+
     .faq-wrapper {
         grid-template-columns: 1fr !important;
         }
@@ -197,6 +205,8 @@
         height: auto !important;
     }
 
+    /* products page */
+
     .products-filter {
         display: none;
     }
@@ -205,32 +215,4 @@
         grid-template-columns: 1fr !important;
     }
 
-}
-
-/* FOOTER */
-
-.contact-footer_wrapper {
-    background: white;
-    display: grid;
-    justify-items: center;
-    border: 1px solid #ececec;
-    border-left: hidden;
-    border-right: hidden;
-    border-bottom: hidden;
-}
-
-.contact-footer_wrapper ul {
-    list-style: none;
-    padding: 0px;
-}
-
-.contact-info {
-    text-align: center;
-    margin: 20px 0px;
-}
-
-.contact-button {
-    padding: 15px 10px;
-    margin-top: 40px;
-    font-family: var(--text-heading);
 }

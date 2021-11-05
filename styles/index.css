@@ -1,0 +1,16 @@
+.homebg {
+    background: no-repeat center/100% url("../images/canoeing-homepage-background.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.homebg div {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}

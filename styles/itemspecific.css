@@ -11,20 +11,20 @@
 
 .itemspecific-wrapper img {
     padding: 10px 0;
-    background: white;
+    background: var(--color);
     width: 500px;
 }
 
 .itemspecific-babywrapper {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    background: white;
+    background: var(--color);
     justify-items: center;
     min-width: 500px;
 }
 
 .about {
-    background: #f0f0f0;
+    background: var(--background-color);
     max-width: 350px;
     height: 120px;
     padding: 10px;
@@ -62,7 +62,7 @@ li:hover {
 
 .size {
     display: inline-block;
-    background: #f0f0f0;
+    background: var(--background-color);
     border: solid 1px grey;
     padding: 13px;
     width: 28px;

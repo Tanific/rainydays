@@ -2,7 +2,7 @@
 
 .container-wrapper {
     margin: 30px auto;
-    background: #f0f0f0;
+    background: var(--background-color);
     padding: 30px;
     width: 900px;
 }
@@ -58,7 +58,7 @@ h1 {
 .payment-bottom {
     display: flex;
     flex-direction: column;
-    background: white;
+    background: var(--color);
     align-items: center;
 }
 
@@ -68,5 +68,5 @@ a {
 }
 
 .cta {
-    margin: 5px auto;
+    padding: 15px;
 }

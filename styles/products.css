@@ -4,13 +4,13 @@ main {
 }
 
 .rain-coat, .products-filter ul, .sorting {
-    background-color: white;
+    background: var(--color);
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    background: white;
+    background: var(--color);
     font-weight: lighter;
     font-size: 44px;
     color:#0A3641;

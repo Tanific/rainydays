@@ -17,7 +17,7 @@ h2 {
 .confirm-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: #f0f0f0;
+    background: var(--background-color);
     margin: 20px auto;
     padding: 40px 10px;
     
@@ -30,7 +30,7 @@ h2 {
 
 ul {
     display: grid;
-    background: white;
+    background: var(--color);
     padding: 0px;
     margin: 0 30px;
 }
