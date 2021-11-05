@@ -19,8 +19,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     background: var(--background-color);
     margin: 20px auto;
-    padding: 40px 10px;
-    
+    padding: 40px 10px;  
 }
 
 .logo {
@@ -85,5 +84,5 @@ li:last-child {
     margin: 0px;
     font-size: 0.8rem;
     font-style: italic;
-    color: #afafaf
+    color: black;
 }
