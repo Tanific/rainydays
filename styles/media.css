@@ -59,6 +59,30 @@
         margin-top: 30px !important;
     }
 
+    .papawrapper {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr !important;
+        width: 485px !important;
+        gap: 50px;
+        margin: 0px !important;
+        justify-items: center !important;
+        justify-content: center!important;
+    }
+
+    .container-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 485px!important;
+        padding: 0px !important;
+        align-items: center;
+    }
+
+    .container-wrapper h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -170,3 +194,4 @@
     margin-top: 40px;
     font-family: var(--text-heading);
 }
+
