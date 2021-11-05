@@ -7,13 +7,13 @@
 
 h1 {
     text-align: center;
-    font-size: 2.9em;
-    padding: 12px;
+    font-size: 1.9em;
+    padding: 17px;
     margin: 0px;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 0.76em;
     border-bottom: 1px solid #f0f0f0;
     width: 100%;
     margin-bottom: 10px;
@@ -21,21 +21,21 @@ h2 {
 
 h3 {
     color: #ED6D2E;
-    font-size: 27px;
+    font-size: 23px;
     margin: 0px;
 }
 
 .cartsummary-wrapper {
     display: flex;
     justify-content: center;
-    height: 300px;
+    height: 200px;
 }
 
 ul {
     background: white;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    max-width: 1200px;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+    max-width: 1000px;
     padding: 0px;
     border: 2px solid #dbdbdb;
     margin: 0px;
@@ -47,7 +47,6 @@ li {
     flex-direction: column;
     font-weight: bolder;
     font-size: 2em;
-    width: 180px;
 }
 
 .cart {
@@ -62,7 +61,7 @@ li {
 .item {
     padding: 5px 5px 5px 0;
     font-weight: lighter;
-    font-size: 1.4rem;
+    font-size: 18px;
     border-bottom: 1px solid #f0f0f0;
     width: 100%;
     text-align: center;
@@ -74,9 +73,8 @@ li {
 
 .bottomcontainer-cart {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-start;
-    gap: 450px;
     height: 70px;
     margin-top: 9px;
 }
@@ -91,4 +89,5 @@ a.cta {
     justify-content: center;
     text-align: center;
     margin: 15px auto;
+    padding: 12px;
 }
