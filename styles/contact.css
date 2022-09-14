@@ -3,38 +3,43 @@ main {
     background-size: cover;
     display: grid;
     justify-items: center;
-    grid-template-rows: auto auto 1fr;
+    height: 80vh;
     background-position: 40%;
+    overflow: hidden;
 }
 
-.contactwrapper {
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    width: 390px;
+body {
+    min-height: 100%;
+}
+
+#wrapper-ContactForm {
+    display: flex;
+    flex-direction: column;
+    background: #F0F0F0;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    gap:15px;
+    margin:70px auto;
 }
 
 h1 {
-    margin: 50px 0 20px 0;
-    max-height: 60px;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 10px;
 }
 
-#title, #question, #files, #email {
+#title, #question, #address, #email {
     border: 1px solid #638A98;
-    margin: 10px;
-    padding: 10px;
-    height: 20px;
+    padding: 20px;
+    height: 14px;
+    margin: 0px auto;
     font-size: 1em;
     font-family: var(--text-paragraph);
 }
 
-#question {
-    height: 100px;
-    resize: none;
-}
-
-#email {
-    margin-bottom: 8px;
-}
 
 .cta {
     padding: 4px;
@@ -46,15 +51,29 @@ h1 {
 .baby-link {
     color: black;
     margin-left: 10px;
+    font-weight: bolder;
 }
 
-.mamawrapper {
-    margin: 90px auto;
-    width: 450px;
-    background: var(--background-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.form-error {
+    display: none;
+    color: red;
+}
+
+.submit {
+    font-size: 28px;
+    background: #ED6D2E;
+    color: white;
+    border: none;
+    text-transform: uppercase;
     border-radius: 10px;
 }
 
+button {
+    cursor: pointer;
+}
