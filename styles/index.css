@@ -14,3 +14,7 @@
     display: flex;
     justify-content: center;
 }
+
+.dropbtn > i {
+    pointer-events: none;
+}
