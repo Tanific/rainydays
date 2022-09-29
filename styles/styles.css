@@ -156,9 +156,6 @@ nav {
     font-weight: bolder;
     background: var(--color);
     text-align: center;
-    border: 2px solid #CFDADC;
-    border-left: hidden;
-    border-right: hidden;
     height: 56px;
 }
 
@@ -240,4 +237,8 @@ nav {
 
 ::placeholder {
     color: #638A98;
+}
+
+.dropbtn > i {
+    pointer-events: none;
 }

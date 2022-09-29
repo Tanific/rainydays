@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="js/script.js"></script>
     <title>Rainydays - Contact us</title>
 </head>
 <body>
@@ -31,19 +31,21 @@
                 <input type="text" placeholder="Search.." id="textarea">
               </form>
             </div>
-          <nav>
-              <button class="hamburger" id="hamburger">
-                  <i class="fas fa-bars"></i>
-              </button>
-              <i class="fas fa-search"></i>
-              <div class="navmedia">
-                <a href="about.html" class="fas fa-info"></a>
-                <a href="contact.html" class="fas fa-phone-volume"></a>
-                <a href="faq.html" class="fas fa-question"></a>
-                <a href="about.html" class="fab fa-facebook-f"></a>
-                <a href="about.html" class="fab fa-twitter"></a>
-            </div>
-          </nav>
+            <nav>
+                <button onclick="menuButton()" class="dropbtn"><i class="fas fa-bars"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="about.html">About us</a>
+                        <a href="contact.html">Contact us</a>
+                        <a href="faq.html">FAQ</a>
+                    </div>
+                <div class="navmedia">
+                  <a href="about.html" class="fas fa-info"></a>
+                  <a href="contact.html" class="fas fa-phone-volume"></a>
+                  <a href="faq.html" class="fas fa-question"></a>
+                  <a href="about.html" class="fab fa-facebook-f"></a>
+                  <a href="about.html" class="fab fa-twitter"></a>
+              </div>
+            </nav>
         </div>
     </header>
     <main>
