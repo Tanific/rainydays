@@ -80,12 +80,22 @@ header a {
 
 nav {
     width: 100%;
+    margin-right:50px;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .logo {
     max-width: 250px;
     margin: 20px 0px 0px 20px;
+}
+
+.dropbtn {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
 }
 
 /* search bar */
