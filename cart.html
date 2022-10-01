@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="View what products you've added to your cart"/>
+    <link href="styles/cart.css" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
     <link href="styles/media.css" rel="stylesheet">
-    <link href="styles/cart.css" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/b1ec752e2d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,39 +50,33 @@
         </div>
     </header>
     <main>
-        <section class="cart-wrapper">
-            <h1>Your cart</h1>
-            <div class="cartsummary-wrapper">
-                <ul>
-                    <li class="cart"><h2>Product</h2>
-                        <span class="item">Rain coat</span>
-                        <span class="item">Rain coat</span>
-                    </li>
-                    <li class="cart"><h2>Color</h2>
-                        <span class="item">Yellow</span>
-                        <span class="item">Black</span>
-                    </li>
-                    <li class="cart"><h2>Size</h2>
-                        <span class="item">Medium</span>
-                        <span class="item">Large</span>
-                    </li>
-                    <li class="cart"><h2>Qty</h2>
-                        <span class="item">1</span>
-                        <span class="item">2</span>
-                    </li>
-                    <li class="cart"><h2>Price</h2>
-                        <span class="item">$ 150.00</span>
-                        <span class="item">$ 150.00</span>
-                    </li>
-                </ul>
+        <div class="cart-container">
+                <h3 class="Heading">Shopping Cart</h3>
+               <div class="cart-items">
+                     <div class="image-container">
+                         <img src="images/yellow-raincoat.png" />
+                     </div>
+                     <div class="about">
+                         <h1>Rain Jacket</h1>
+
+                     </div>
+                     <div class="counter">
+                         <button><div class="cart-add">+</div></button>
+                         <div class="count">1</div>
+                         <button><div class="cart-add">-</div></button>
+                     </div>
+               </div>
+             <div class="checkout">
+             <div class="total">
+                 <div>
+                     <div class="Subtotal">Sub-Total</div>
+                 </div>
+                 <div class="total-amount">$150</div>
+             </div>
+             <a href="checkout.html"><button class="cta">Checkout</button></a>
             </div>
-            <div class="bottomcontainer-cart">
-                <a href="products.html">Continue shopping</a>
-                <h3>Total price: $ 300.00</h3>
-            </div>
-        </section>
-        <a href="checkout.html" class="cta">Go to payment</a>
+        </div>
     </main>
+    </body>
     <footer>Copyright &copy;</footer>
-</body>
 </html>
