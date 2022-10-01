@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
     <title>Rainydays - Your cart</title>
 </head>
 <body>
@@ -60,18 +61,22 @@
                          <h1>Rain Jacket</h1>
 
                      </div>
+
                      <div class="counter">
-                         <button><div class="cart-add">+</div></button>
-                         <div class="count">1</div>
-                         <button><div class="cart-add">-</div></button>
-                     </div>
+                        <button onclick="countUp()">+</button>
+                        <input type="text" id="value-number" value="1">
+
+                        <button onclick="countDown()">-</button>
+                    </div>
                </div>
              <div class="checkout">
              <div class="total">
                  <div>
                      <div class="subtotal">Sub-Total</div>
                  </div>
-                 <div class="total-amount">$150</div>
+                 <div class="total-amount">$
+                    <input type="text" id="subtotal-value" value="1">
+                 </div>
              </div>
              <a href="checkout.html"><button class="cta">Checkout</button></a>
             </div>
