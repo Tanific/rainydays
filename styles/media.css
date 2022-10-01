@@ -291,12 +291,22 @@
     }
 
     .subtotal {
-        margin-top: 15px;
+        margin-top: 22px;
     }
 
     .total-amount {
         font-size: 25px;
         margin-top: 15px;
+    }
+
+    .goback {
+        margin-bottom: 5px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .exitbutton {
+        align-items: flex-start
     }
 
 }
