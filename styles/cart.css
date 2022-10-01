@@ -120,6 +120,7 @@ h1 {
 	margin-right: 5%;
 }
 
+
 .total {
 	width: 100%;
 	display: flex;
@@ -141,7 +142,7 @@ h1 {
 }
 
 
-.Subtotal {
+.subtotal {
     font-size: 22px;
     margin-left: 20px;
 }
