@@ -44,19 +44,12 @@ h3 {
     margin: 0 0 10px 10px;
 }
 
-.fas.fa-circle {
-    font-size: 40px !important;
-}
 
 ul {
     margin: 0 0 0 10px;
     padding: 0px;
 }
 
-li:hover {
-    cursor: pointer;
-    color:grey;
-}
 
 .size {
     display: inline-block;
@@ -69,6 +62,7 @@ li:hover {
     margin: 10px 5px 10px 0px;
 }
 
+
 .itemspecific-links {
     display: flex;
     flex-direction: column-reverse;
@@ -77,11 +71,13 @@ li:hover {
     margin: 10px 40px;
 }
 
+
 .cta {
     margin-top: 5px !important;
     width: 300px;
     height: 40px;
 }
+
 
 .backbtn {
     margin-top: 15px;
@@ -90,20 +86,63 @@ li:hover {
     font-size: 1.2em;
 }
 
-.color-selector button:active  {
-    border:1px solid black;
-}
-
-.color-selector button:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #707070;
-}
-
 .color-selector button {
-    width: 50px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    border: 3px solid white;
 }
 
-.color-selector li {
-    width: 50px;
+
+.color-selector {
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.color-selector button:hover {
+    filter: brightness(65%);
+    cursor: pointer;
+}
+
+
+.btn:focus {
+    border: 3px solid black;
+}
+
+#green {
+    background: green;
+}
+
+
+#red {
+    background: red;
+}
+
+
+#blue {
+    background:rgb(43, 43, 255);
+}
+
+
+#yellow {
+    background:rgb(216, 199, 49);
+}
+
+
+#black {
+    background:rgb(65, 65, 65);
+}
+
+
+.size-selector button {
+    padding: 15px;
+    min-width: 50px;
+    margin: 10px;
+}
+
+.size-selector {
+    display: flex;
+    justify-content: center;
 }
