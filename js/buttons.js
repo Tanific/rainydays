@@ -1,25 +1,32 @@
-let btn = document.getElementsByClassName("btn");
-
-for (var i = 0; i < btn.length; i++) {
-    (function (index) {
-      btn[index].addEventListener("click", function () {
-        console.log("Clicked Button: " + index);
-
-        let isPresent = false;
-
-        this.classList.forEach(function (e, i) {
-          if (e == "btn:focus") {
-            isPresent = true;
-          } else {
-            isPresent = false;
-          }
-        });
-
-        if (isPresent) {
-          this.classList.remove("btn:focus");
-        } else {
-          this.classList.add("btn:focus");
+function changeColor(id) {
+    const pictureList = [
+        "picture1",
+        "picture2",
+        "picture3",
+        "picture4",
+        "picture5"
+    ];
+    for (i = 0; i < pictureList.length; i++) {
+        var hideObj = document.getElementById(pictureList[i]);
+        if (hideObj != null){
+            hideObj.className = 'hide';
         }
-      });
-    })(i);
-  }
+    }
+    var showObj = document.getElementById(pictureList[id-1]);
+    if (showObj != null){
+        showObj.className = 'show';
+
+    }
+    
+}
+
+/*
+for (i = 0; i < pictureList.length; i++) {
+    var obj = document.getElementById(pictureList[i]);
+    if (obj.className = 'show'){
+        //show this obj image
+        console.log(obj.id + ", class: " + obj.className);
+    }else{
+        console.log(obj.id + ", class: " + obj.className);
+    }
+}*/

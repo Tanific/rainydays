@@ -9,6 +9,11 @@
     gap: 10px;
 }
 
+#imagepreview {
+    display: block;
+    width: 500px;
+}
+
 .itemspecific-wrapper img {
     padding: 10px 0;
     background: var(--color);
@@ -142,7 +147,20 @@ ul {
     margin: 10px;
 }
 
+
 .size-selector {
     display: flex;
     justify-content: center;
 }
+
+
+.show {
+    display: block;
+}
+
+
+.hide {
+    display:none;
+}
+
+
