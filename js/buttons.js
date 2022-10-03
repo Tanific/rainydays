@@ -1,3 +1,4 @@
+
 function changeColor(id) {
     const pictureList = [
         "picture1",
@@ -18,7 +19,23 @@ function changeColor(id) {
 
     }
     
+    if(id == 1)
+    localStorage.setItem("selectedColor","Yellow");
+    if(id == 2)
+    localStorage.setItem("selectedColor","Green");
+    if(id == 3)
+    localStorage.setItem("selectedColor","Red");
+    if(id == 4)
+    localStorage.setItem("selectedColor","Blue");
+    if(id == 5)
+    localStorage.setItem("selectedColor","Black");
+
+    console.log(localStorage.getItem("selectedColor"));
 }
 
 
 
+function loadColor(){
+    
+    console.log(localStorage.getItem("selectedColor"));
+}
