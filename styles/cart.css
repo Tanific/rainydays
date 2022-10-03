@@ -189,3 +189,12 @@ h1 {
     color: black;
     font-size:20px;
 }
+
+.hide {
+	display: none;
+}
+
+
+.show {
+	display: block;
+}

@@ -96,16 +96,16 @@
                     <div>
                     <h3>Choose your size</h3>
                 <div class="size-selector">
-                    <button class="btn btn-size">XS</button>
-                    <button class="btn btn-size">S</button>
-                    <button class="btn btn-size">M</button>
-                    <button class="btn btn-size">L</button>
-                    <button class="btn btn-size">XL</button>
+                    <button onclick="changeSize('XS')" class="btn btn-size" id="XS">XS</button>
+                    <button onclick="changeSize('S')" class="btn btn-size" id="S">S</button>
+                    <button onclick="changeSize('M')" class="btn btn-size" id="M">M</button>
+                    <button onclick="changeSize('L')" class="btn btn-size" id="L">L</button>
+                    <button onclick="changeSize('XL')" class="btn btn-size" id="XL">XL</button>
                 </div>
                 </div>
                 <div class="itemspecific-links">
                     <a href="../products.html" class="backbtn">Go back</a>
-                    <a href="../cart.html" class="cta">Add to cart</a>
+                    <a href="../cart.html?selID=picture1/M" class="cta" onclick="confirmInfo()">Add to cart</a>
                 </div>
             </div>
             </section>
