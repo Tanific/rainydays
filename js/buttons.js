@@ -1,5 +1,6 @@
 
 function changeColor(id) {
+    var getColor = "None";
     const pictureList = [
         "picture1",
         "picture2",
@@ -20,16 +21,16 @@ function changeColor(id) {
     }
     
     if(id == 1)
-    localStorage.setItem("selectedColor","Yellow");
+    getColor = "Yellow";
     if(id == 2)
-    localStorage.setItem("selectedColor","Green");
+    getColor = "Green";
     if(id == 3)
-    localStorage.setItem("selectedColor","Red");
+    getColor = "Red";
     if(id == 4)
-    localStorage.setItem("selectedColor","Blue");
+    getColor = "Blue";
     if(id == 5)
-    localStorage.setItem("selectedColor","Black");
-
+    getColor = "Black";
+    localStorage.setItem("selectedColor", getColor)
     console.log(localStorage.getItem("selectedColor"));
 }
 
