@@ -30,6 +30,8 @@ h1 {
     grid-template-rows: 1fr auto;
     max-width: 297px;
     gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #22222233;
 }
 
 .featured-products {
@@ -48,7 +50,6 @@ h1 {
 .product-info {
     display: grid;
     grid-template-columns: auto auto;
-    border-top: solid 15px #F0F0F0;
     padding: 0px 20px 0px 0px;
     max-height: 200px;
     justify-items: center;
