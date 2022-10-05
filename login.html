@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Log in to your Rainydays account here"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Log in to your Rainydays account here">
     <link href="styles/styles.css" rel="stylesheet">
     <link href="styles/media.css" rel="stylesheet">
     <link href="styles/login.css" rel="stylesheet">
@@ -22,18 +22,20 @@
             <a href="index.html" class="exitbutton"></a>
             <form method="POST">
             <div class="formwrapper">
-                <section>
-                    <label for="Email/phone">Please enter your e-mail address</label>
-                    <input type="text" id="email" name="email" placeholder="E-mail"/>
+                <div>
+                    <label for="Email">Please enter your e-mail address</label>
+                    <input type="text" id="email" name="email" placeholder="E-mail">
                     <label for="password">Your password</label>
-                    <input type="text" id="password" name="password" placeholder="Password"/>
+                    <input type="text" id="password" name="password" placeholder="Password">
                 <div class="remember-me">
-                    <input type="checkbox" name="remember-me" id="remember-me"/>   
+                    <input type="checkbox" name="remember-me" id="remember-me">   
                     <label for="remember-me">Remember me</label>
                 </div>
-                </section>
             </div>
-            <input type="submit" value="Log in" class="cta cta-login"/> 
+            </div>
+            <div class="cta cta-login">
+                <a href="index.html">log in</a>
+            </div>
         </form>
         <div class="registerlink">
             <a href="register.html"><p>Don't have an account?</p><p>Register here.</p></a>

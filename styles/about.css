@@ -18,6 +18,8 @@
     border-radius: 20px;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #22222233;
 }
 
 h1 {
@@ -37,8 +39,12 @@ p {
     height: auto;
     margin-right: 10px;
     border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #22222233;
 }
 
 .mq-img {
     display: none;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px #22222233;
 }

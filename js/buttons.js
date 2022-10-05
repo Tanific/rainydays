@@ -35,6 +35,11 @@ function confirmInfo(){
 function loadInfo(){
     const urlParams = new URLSearchParams(window.location.search);
     const selID = urlParams.get('selID');
+
+    if(selID == null){
+        document.getElementsByClassName("about")[0].innerHTML = "<h1>Rain Jacket - M</h1>";
+        return;
+    }
     var selSplit = selID.split('/');
 
     console.log("4: " + selSplit[0]);

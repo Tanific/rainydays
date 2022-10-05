@@ -99,43 +99,6 @@ i.fa.fa-shopping-cart:hover {
     cursor: pointer;
 }
 
-.color-selector ul {
-    list-style: inline;
-    padding: 0px;
-    margin: 12px 0px 20px;
-}
-
-.fas.fa-circle {
-    background: none;
-    font-size: 20px;
-    padding: 0px;
-    height: 30px;
-}
-
-.fas.fa-circle:hover {
-    filter: brightness(65%);
-    cursor: pointer;
-}
-
-#green {
-    color: green;
-}
-
-#red {
-    color: red;
-}
-
-#blue {
-    color: rgb(43, 43, 255);
-}
-
-#yellow {
-    color: rgb(216, 199, 49);
-}
-
-#black {
-    color: rgb(65, 65, 65);
-}
 
 .info-wrapper_2 {
     display: grid;
