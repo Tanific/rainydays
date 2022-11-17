@@ -1,7 +1,10 @@
-const baseUrl = "https://rainydaysapi.tanific.one/wp-json/wc/store/products?_embed"
-const productContainer = document.querySelector(".products")
+const baseUrl = "https://rainydaysapi.tanific.one/wp-json/wc/store/products";
+const productContainer = document.querySelector(".products");
+const categories = document.querySelectorAll(".category");
+const resistances = document.querySelector(".resistance");
 
-async function getProducts(url) {
+/* products.html page display */
+async function getProducts(url){
   const response = await fetch(url);
   const products = await response.json();
   products.forEach(function(product){
@@ -16,3 +19,25 @@ async function getProducts(url) {
 
 getProducts(baseUrl);
 
+/* ultra(featured) and categories organizer */
+categories.forEach(function(category){
+  category.onclick = function(event){
+    let newUrl;
+    if (event.target.id === "featured"){
+      newUrl = baseUrl + "?featured=true";
+    }
+    else {
+      const categoryChosen = event.target.value;
+      newUrl = baseUrl + `?category=${categoryChosen}`
+    }
+    productContainer.innerHTML = "";
+    getProducts(newUrl);
+  }
+})
+
+/* resistance organizer */
+resistances.onchange = function(event){
+  const newUrl = baseUrl + `?category=${event.target.value}`;
+  productContainer.innerHTML = "";
+  getProducts(newUrl);
+}

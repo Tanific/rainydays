@@ -30,7 +30,7 @@ h1 {
     box-shadow: 0px 10px 20px #22222233;
     border-radius: 20px;
     align-items: center;
-    max-height:400px;
+    max-height: 400px;
 }
 
 .product h2 {
@@ -54,6 +54,12 @@ h1 {
     width: 200px;
     height: 200px;
 }
+
+.categorize1 {
+    display: flex;
+    gap:50px;
+}
+
 
 /* FOOTER */
 
