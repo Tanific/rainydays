@@ -9,11 +9,11 @@ async function getProducts(url){
   const products = await response.json();
   products.forEach(function(product){
     productContainer.innerHTML += `
-    <div class="product"><h2>${product.name}</h2>
+    <a href="../rainydays/products/itemspecific-raincoat.html"><div class="product"><h2>${product.name}</h2>
       <img src="${product.images[0].thumbnail}"/>
       <div class="product-description-short">${product.short_description}</div>
       <div class="product-price">${product.prices.price}kr</div>
-    </div>`
+    </div></a>`
   })
 }
 

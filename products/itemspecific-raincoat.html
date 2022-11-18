@@ -7,8 +7,8 @@
     <meta name="description" content="Our best selling rain coat, perfect for all weather"/>
     <link href="../styles/styles.css" rel="stylesheet">
     <link href="../styles/media.css" rel="stylesheet">
-    <link href="../styles/itemspecific.css" rel="stylesheet">
     <link href="../styles/products.css" rel="stylesheet">
+    <link href="../styles/itemspecific.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b1ec752e2d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +37,7 @@
         </div>
         <div class="header-bottom_grid">
             <a href="../index.html">
-             <img src="../images/logo-rainydays.png" class="logo"></a>
+             <img src="../images/logo-rainydays.png" class="logo" alt="rainydays logo"></a>
              <div class="make-block">
              <form class="form-wrapper">
                 <button type="submit" class="searchbutton"><i class="fa fa-search"></i></button>
@@ -61,66 +61,15 @@
             </nav>
         </div>
     </header>
-    <section class="store-navigation">
-        <div class="navelement">
-            <a href="../products.html">
-            <p>Hiking</p></a>
-        </div>
-        <div class="navelement">
-            <a href="../products.html">
-            <p>Canoeing</p></a>
-        </div>
-        <div class="navelement">
-            <a href="../products.html">
-            <p>Sports</p></a>
-        </div>
-        <div class="navelement">
-            <a href="../products.html">
-            <p>Skiing</p></a>
-        </div>
-        <a href="../products.html"><span class="navelement-mq"><p>Browse categories</p></span></a>
-    </section>
-    <main>
-        <section class="itemspecific-wrapper">
-            <div id="imagepreview">
-            <img id="picture1" src="../images/yellow-raincoat.png" title="1" class="show" alt="yellow raincoat">
-            <img id="picture2" src="../images/green-raincoat.png" title="2" class="hide" alt="green raincoat">
-            <img id="picture3" src="../images/red-raincoat.png" title="3" class="hide" alt="red raincoat">
-            <img id="picture4" src="../images/blue-raincoat.png" title="4" class="hide" alt="blue raincoat">
-            <img id="picture5" src="../images/black-raincoat.png" title="5" class="hide" alt="black raincoat">
-        </div>
-            <div class="itemspecific-babywrapper">
-                <h1>Rain coat</h1>
-                <h2>$ 150.00</h2>
-                <div class="about">
-                    <h3>About this product</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, est commodi autem provident vero dignissimos numquam repellendus?</p>
-                </div>
-                <div class="color-selector">
-                        <button onclick="changeColor(1)" class="btn btn-color" id="yellow"></button>
-                        <button onclick="changeColor(2)" class="btn btn-color" id="green"></button>
-                        <button onclick="changeColor(3)" class="btn btn-color" id="red"></button>
-                        <button onclick="changeColor(4)" class="btn btn-color" id="blue"></button>
-                        <button onclick="changeColor(5)" class="btn btn-color" id="black"></button>
-                 </div>
-                <div class="babywrapper2">
-                    <div>
-                    <h3>Choose your size</h3>
-                <div class="size-selector">
-                    <button onclick="changeSize('XS')" class="btn btn-size" id="XS">XS</button>
-                    <button onclick="changeSize('S')" class="btn btn-size" id="S">S</button>
-                    <button onclick="changeSize('M')" class="btn btn-size" id="M">M</button>
-                    <button onclick="changeSize('L')" class="btn btn-size" id="L">L</button>
-                    <button onclick="changeSize('XL')" class="btn btn-size" id="XL">XL</button>
-                </div>
-                </div>
-                <div class="itemspecific-links">
-                    <a href="../products.html" class="backbtn">Go back</a>
-                    <a href="../cart.html?selID=picture1/M" class="cta" onclick="confirmInfo()">Add to cart</a>
-                </div>
+
+     <main>
+        <div class="itemspecific-container">
+         <h1>Welcome to our store</h1>
+            <div class="itemspecific-links">
+                <a href="../products.html" class="backbtn">Go back</a>
+                <a href="../cart.html" class="cta">Add to cart</a>
             </div>
-            </section>
-        </section>
+        </div>
     </main>
     <footer>Copyright &copy;</footer>
     </body>
