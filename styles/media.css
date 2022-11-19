@@ -279,6 +279,13 @@
         grid-template-columns: 1fr !important;
     }
 
+    .categorize1 {
+        gap: 20px !important;;
+    }
+
+    .welcome-message {
+        font-size:30px;
+    }
 
     /* cart page */
 

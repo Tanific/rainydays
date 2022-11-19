@@ -12,6 +12,7 @@ body {
     height: 100vh;
 }
 
+
 footer {
     display: flex;
     align-self: end;
@@ -160,6 +161,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin:10px;
 }
 
 

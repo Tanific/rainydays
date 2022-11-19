@@ -72,3 +72,7 @@ a {
 .cta {
     padding: 15px;
 }
+
+main {
+    height: 75vh;
+}

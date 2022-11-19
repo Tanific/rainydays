@@ -21,3 +21,35 @@
     font-weight: bolder;
     font-size: 1.2em;
 }
+
+
+a {
+    text-decoration: underline;
+}
+
+
+.itemspecific-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    margin: 50px auto;
+}
+
+
+.itemspecific-container img {
+    height: 300px;
+    width: 300px;
+}
+
+
+.itemspecific-container p {
+    margin: 0px;
+}
+
+.categories-info {
+    font-weight: bolder;
+    font-size: 3em;
+    margin: 10px!important;
+}

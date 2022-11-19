@@ -36,14 +36,13 @@ h1 {
     color: black;
 }
 
-.product a {
+a {
     text-decoration: none;
 }
 
 .product h2 {
     margin:20px;
     font-size:20px;
-    text-decoration: none;
 }
 
 .product p {
