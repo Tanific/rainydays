@@ -1,4 +1,4 @@
-const itemspecificContainer = document.querySelector(".itemspecific-container");
+const itemspecificContainer = document.querySelector(".itemspecific-card");
 
 const queryString = document.location.search;
 

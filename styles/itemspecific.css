@@ -20,6 +20,7 @@
     color: black;
     font-weight: bolder;
     font-size: 1.2em;
+    padding-bottom: 10px;
 }
 
 
@@ -27,14 +28,21 @@ a {
     text-decoration: underline;
 }
 
+main {
+    min-height: 80vh;
+    background: white;
+}
 
-.itemspecific-container {
+.itemspecific-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: white;
     align-items: center;
     margin: 50px auto;
+    background: #F0F0F0;
+    max-width: 500px;
+    box-shadow: 0px 10px 20px #22222233;
+    border-radius: 20px;
 }
 
 
@@ -45,11 +53,18 @@ a {
 
 
 .itemspecific-container p {
-    margin: 0px;
+    margin: 10px;
+    text-align: center;
+    width: 340px;
+}
+
+.itemspecific-container {
+    background: white;
+    margin:10px auto;
 }
 
 .categories-info {
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 49px;
     margin: 10px!important;
 }
