@@ -1,7 +1,7 @@
 # Rainydays
 ![rainydays preview](https://user-images.githubusercontent.com/79892491/221057711-7dd1ce42-9ab1-437c-985f-7408790a0f38.png)
 
-This was a project I created through my Front-End development course at Noroff - school of technology and digital media.
+This was a cross-course project I created through my Front-End development course at Noroff - school of technology and digital media.
 
 ## Description
 
