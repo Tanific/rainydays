@@ -24,6 +24,13 @@ These pages are included in this site:
 - CSS
 - JavaScript
 
+## Installing
+
+Clone the repo: 
+``` 
+git clone https://github.com/Tanific/rainydays.git
+```
+
 ## Live site
 
 [Link to live site!](https://rainydays-tonjestensen.netlify.app)
