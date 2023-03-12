@@ -5,7 +5,7 @@ This was a cross-course project I created through my Front-End development cours
 
 ## Description
 
-Rainydays is a school-project aimed to be a raincoat store page. It fetches data from a Wordpress API to display the content.
+Rainydays is a school-project aimed to be a raincoat store page. It fetches data from a Wordpress REST API to display the content. The categories will also filter out the jackets.
 
 These pages are included in this site:
 
@@ -24,6 +24,9 @@ These pages are included in this site:
 - CSS
 - JavaScript
 
+## Live site
+
+[Link to live site!](https://rainydays-tonjestensen.netlify.app)
 
 ## Contact
 Get in touch with me!
